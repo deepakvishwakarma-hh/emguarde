@@ -2,6 +2,7 @@ import SEO from "../components/SEO";
 import Buy from "../components/Buy";
 import Hero from "../components/Hero";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 import WhyBuilt from "../components/WhyBuild";
 import Testimonials from "../components/Testimonials";
 import HealthBenefits from "../components/HealthBenefits";
@@ -18,6 +19,7 @@ export default function Home() {
         <HealthBenefits />
         <Testimonials />
         <Buy />
+        <Footer />
       </main>
     </>
   );
