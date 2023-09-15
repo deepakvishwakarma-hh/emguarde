@@ -1,8 +1,8 @@
 const HealthBenefits = () => {
   return (
     <section className="py-20 ">
-      <div className="mx-auto max-w-5xl mb-20">
-        <h3 className="text-center text-3xl font-heading font-semibold">
+      <div className="mx-auto max-w-5xl mb-20 px-2">
+        <h3 className="text-center lg:text-3xl text-2xl font-heading font-semibold">
           Health benefits EmGuarde can give you.
         </h3>
         <p className="text-center text-sm mt-5">

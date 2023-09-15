@@ -2,7 +2,7 @@ const Testimonials = () => {
   return (
     <section className="text-gray-600 bg-gray-50 body-font">
       <div className="container px-5 py-10 mx-auto">
-        <h1 className="text-3xl font-semibold font-heading text-gray-900 text-center">
+        <h1 className="lg:text-3xl text-2xl font-semibold font-heading text-gray-900 text-center">
           Our Testimonials
         </h1>
         <p className="text-center text-sm mt-5  mb-12">
@@ -31,7 +31,7 @@ const Testimonials = () => {
               </p>
               <a className="inline-flex items-center">
                 <span className="flex-grow flex flex-col">
-                  <span className="title-font font-medium text-gray-900">
+                  <span className="title-font font-medium text-gray-900 font-heading">
                     Holden Caulfield
                   </span>
                   <span className="text-gray-500 text-sm">
@@ -62,7 +62,7 @@ const Testimonials = () => {
               </p>
               <a className="inline-flex items-center">
                 <span className="flex-grow flex flex-col">
-                  <span className="title-font font-medium text-gray-900">
+                  <span className="title-font font-medium text-gray-900 font-heading">
                     Alper Kamu
                   </span>
                   <span className="text-gray-500 text-sm">
@@ -99,8 +99,8 @@ const Testimonials = () => {
               </p>
               <a className="inline-flex items-center">
                 <span className="flex-grow flex flex-col">
-                  <span className="title-font font-medium text-gray-900">
-                    Holden Caulfield
+                  <span className="title-font font-medium text-gray-900 font-heading">
+                    Simao
                   </span>
                   <span className="text-gray-500 text-sm">
                     A private doctor in Selangor
@@ -131,8 +131,8 @@ const Testimonials = () => {
               </p>
               <a className="inline-flex items-center">
                 <span className="flex-grow flex flex-col">
-                  <span className="title-font font-medium text-gray-900">
-                    Holden Caulfield
+                  <span className="title-font font-medium text-gray-900 font-heading">
+                    Ramen
                   </span>
                   <span className="text-gray-500 text-sm">
                     A Yoga Instructor in Singapore

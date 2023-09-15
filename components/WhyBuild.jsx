@@ -1,8 +1,8 @@
 const WhyBuilt = () => {
   return (
     <section className="py-20 bg-yellow-100">
-      <div className="mx-auto max-w-5xl mb-20">
-        <h3 className="text-center text-3xl font-heading font-semibold">
+      <div className="mx-auto max-w-5xl mb-20 px-2">
+        <h3 className="text-center md:text-3xl text-2xl text font-heading font-semibold">
           Why is emGuarde built?
         </h3>
         <p className="text-center text-sm mt-5">

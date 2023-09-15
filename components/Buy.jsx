@@ -10,12 +10,12 @@ import Link from "next/link";
 const Buy = () => {
   return (
     <section id="buy-section" className="py-20 bg-yellow-50">
-      <div className="mx-auto max-w-7xl rounded-md grid grid-cols-2 gap-10">
+      <div className="mx-auto max-w-7xl rounded-md grid lg:grid-cols-2 gap-10 px-5">
         <div className="md:pr-10">
           <h3 className="text-md mb-2 text-gray-500 font-heading font-semibold uppercase">
             Contact us
           </h3>
-          <h3 className="text-5xl text-gray-800 font-heading font-semibold">
+          <h3 className="md:text-5xl text-3xl text-gray-800 font-heading font-semibold">
             Get Your EmGuarde
           </h3>
           <p className=" text-sm mt-5">
@@ -25,9 +25,9 @@ const Buy = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 gap-2">
+        <div className="grid md:grid-cols-2 gap-2">
           <Button
-            Href={"/"}
+            Href={"https://api.whatsapp.com/send?phone=+6587517713&text=hey"}
             Title={"+65 8751 7713"}
             Icon={PiWhatsappLogoBold}
           />
@@ -39,12 +39,16 @@ const Buy = () => {
           />
 
           <Button
-            Href={"/"}
+            Href={"mailto:info@kangenwizglobal.com"}
             Icon={PiAtBold}
             Title={"info@kangenwizglobal.com"}
           />
 
-          <Button Href={"/"} Icon={PiPhoneBold} Title={" +65 8751 7713"} />
+          <Button
+            Href={"tel:+6587517713"}
+            Icon={PiPhoneBold}
+            Title={"+65 8751 7713"}
+          />
         </div>
       </div>
     </section>
