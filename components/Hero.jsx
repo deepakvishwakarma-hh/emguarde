@@ -6,7 +6,7 @@ const Hero = () => {
       <div className="mx-auto max-w-2xl grid gap-10 py-5">
         <Image
           className="mx-auto rounded-md"
-          src={"/product.png"}
+          src={"/emGuarde-With-Box-Beside.png"}
           alt="/"
           width={600}
           height={600}
@@ -17,7 +17,7 @@ const Hero = () => {
         </h1>
         <Link
           href={"#buy-section"}
-          className="font-semibold bg-yellow-400 lg:px-10 px-20 py-2 rounded-full mx-auto block   outline-yellow-400 outline outline-offset-1 md:text-md text-sm"
+          className="font-semibold bg-yellow-400 lg:px-10 px-20 py-2 rounded-md mx-auto block md:text-md  "
         >
           Buy Now
         </Link>

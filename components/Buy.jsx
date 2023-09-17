@@ -18,7 +18,7 @@ const Buy = () => {
           <h3 className="md:text-5xl text-3xl text-gray-800 font-heading font-semibold">
             Get Your EmGuarde
           </h3>
-          <p className=" text-sm mt-5">
+          <p className="   mt-5">
             Embrace EmGuarde today, because investing in your health is
             priceless. Join the ranks of those who have discovered the secret to
             radiant living. Your journey to vitality begins here.

@@ -1,11 +1,11 @@
 const HealthBenefits = () => {
   return (
-    <section className="py-20 ">
+    <section id="health-benefits" className="py-20 ">
       <div className="mx-auto max-w-5xl mb-20 px-2">
         <h3 className="text-center lg:text-3xl text-2xl font-heading font-semibold">
           Health benefits EmGuarde can give you.
         </h3>
-        <p className="text-center text-sm mt-5">
+        <p className="text-center   mt-5">
           With emGuarde, the benefits are not just subtle, they&apos;re
           transformative. Here&apos;s what you can look forward to
         </p>
@@ -18,7 +18,7 @@ const HealthBenefits = () => {
             <h3 className="font-heading font-semibold text-lg">
               Less Headache Episodes
             </h3>
-            <p className="text-sm text-gray-600">
+            <p className="  text-gray-600">
               Bid farewell to those persistent headaches in your daily life.
             </p>
           </li>
@@ -27,7 +27,7 @@ const HealthBenefits = () => {
             <h3 className="font-heading font-semibold text-lg">
               Stronger Blood Circulation
             </h3>
-            <p className="text-sm text-gray-600">
+            <p className="  text-gray-600">
               Feel the difference as your body experiences improved circulation
               and more energy.
             </p>
@@ -37,7 +37,7 @@ const HealthBenefits = () => {
             <h3 className="font-heading font-semibold text-lg">
               Stronger Focus and Less Fatigue
             </h3>
-            <p className="text-sm text-gray-600">
+            <p className="  text-gray-600">
               Prevent disturbances to your body functions by the high amount of
               radiation surrounding us all the time.
             </p>
@@ -47,7 +47,7 @@ const HealthBenefits = () => {
             <h3 className="font-heading font-semibold text-lg">
               Reduced Chance of Cancer
             </h3>
-            <p className="text-sm text-gray-600">
+            <p className="  text-gray-600">
               Protect yourself from radiation in your home, car, and office with
               our portable emGuarde.
             </p>

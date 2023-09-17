@@ -2,12 +2,12 @@ import Image from "next/image";
 
 const ImpactsOfRadiation = () => {
   return (
-    <section className="py-10 bg-gray-50">
+    <section id="impacts-of-radiation" className="py-10 bg-gray-50">
       <div className="mx-auto max-w-5xl px-2">
         <h3 className="text-center lg:text-3xl text-2xl font-heading font-semibold">
           Impacts of Radiations
         </h3>
-        <p className="text-center text-sm mt-5">
+        <p className="text-center   mt-5">
           With so many radiation sources bombarding our body at different
           frequencies almost all the time, it is difficult to avoid the toxic
           effects of radiation. Possible consequences include
@@ -18,7 +18,7 @@ const ImpactsOfRadiation = () => {
         <div className="flex items-center justify-center bg-gray-100 rounded-md">
           <Image
             className="mx-auto rounded-md"
-            src={"/product.png"}
+            src={"/emGuarde-Horizontal.png"}
             alt="/"
             width={500}
             height={500}
@@ -30,7 +30,7 @@ const ImpactsOfRadiation = () => {
               <h3 className="font-heading font-semibold text-lg">
                 Chronic fatigue
               </h3>
-              <p className="text-sm text-gray-600">
+              <p className="  text-gray-600">
                 Increased risk of Alzheimer&apos;s Disease and cataracts
               </p>
             </li>
@@ -38,7 +38,7 @@ const ImpactsOfRadiation = () => {
               <h3 className="font-heading font-semibold text-lg">
                 Reduced blood circulation
               </h3>
-              <p className="text-sm text-gray-600">
+              <p className="  text-gray-600">
                 Increased risk of Alzheimer&apos;s Disease and cataracts
               </p>
             </li>
@@ -46,7 +46,7 @@ const ImpactsOfRadiation = () => {
               <h3 className="font-heading font-semibold text-lg">
                 Higher chance of miscarriages
               </h3>
-              <p className="text-sm text-gray-600">
+              <p className="  text-gray-600">
                 Increased risk of Alzheimer&apos;s Disease and cataracts
               </p>
             </li>
@@ -54,7 +54,7 @@ const ImpactsOfRadiation = () => {
               <h3 className="font-heading font-semibold text-lg">
                 Possible birth defects in babies
               </h3>
-              <p className="text-sm text-gray-600">
+              <p className="  text-gray-600">
                 Increased risk of Alzheimer&apos;s Disease and cataracts
               </p>
             </li>
@@ -62,7 +62,7 @@ const ImpactsOfRadiation = () => {
               <h3 className="font-heading font-semibold text-lg">
                 Chronic fatigue
               </h3>
-              <p className="text-sm text-gray-600">
+              <p className="  text-gray-600">
                 Increased risk of Alzheimer&apos;s Disease and cataracts
               </p>
             </li>

@@ -1,11 +1,11 @@
 const Testimonials = () => {
   return (
-    <section className="text-gray-600 bg-gray-50 body-font">
+    <section id="testimonials" className="text-gray-600 bg-gray-50 body-font">
       <div className="container px-5 py-10 mx-auto">
         <h1 className="lg:text-3xl text-2xl font-semibold font-heading text-gray-900 text-center">
           Our Testimonials
         </h1>
-        <p className="text-center text-sm mt-5  mb-12">
+        <p className="text-center   mt-5  mb-12">
           With emGuarde, the benefits are not just subtle, they&apos;re
           transformative. Here&apos;s what you can look forward to
         </p>
@@ -34,7 +34,7 @@ const Testimonials = () => {
                   <span className="title-font font-medium text-gray-900 font-heading">
                     Holden Caulfield
                   </span>
-                  <span className="text-gray-500 text-sm">
+                  <span className="text-gray-500  ">
                     A software developer in Singapore
                   </span>
                 </span>
@@ -65,7 +65,7 @@ const Testimonials = () => {
                   <span className="title-font font-medium text-gray-900 font-heading">
                     Alper Kamu
                   </span>
-                  <span className="text-gray-500 text-sm">
+                  <span className="text-gray-500  ">
                     A College Student in London
                   </span>
                 </span>
@@ -102,7 +102,7 @@ const Testimonials = () => {
                   <span className="title-font font-medium text-gray-900 font-heading">
                     Simao
                   </span>
-                  <span className="text-gray-500 text-sm">
+                  <span className="text-gray-500  ">
                     A private doctor in Selangor
                   </span>
                 </span>
@@ -134,7 +134,7 @@ const Testimonials = () => {
                   <span className="title-font font-medium text-gray-900 font-heading">
                     Ramen
                   </span>
-                  <span className="text-gray-500 text-sm">
+                  <span className="text-gray-500  ">
                     A Yoga Instructor in Singapore
                   </span>
                 </span>
