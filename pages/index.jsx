@@ -16,8 +16,8 @@ export default function Home() {
       <main>
         <Header />
         <Hero />
-        <WhyBuilt />
         <ImpactsOfRadiation />
+        <WhyBuilt />
         <HealthBenefits />
         <Fixedbg />
         <Testimonials />

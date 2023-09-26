@@ -58,14 +58,6 @@ const ImpactsOfRadiation = () => {
                 Increased risk of Alzheimer&apos;s Disease and cataracts
               </p>
             </li>
-            <li className="p-2">
-              <h3 className="font-heading font-semibold text-lg">
-                Chronic fatigue
-              </h3>
-              <p className="  text-gray-600">
-                Increased risk of Alzheimer&apos;s Disease and cataracts
-              </p>
-            </li>
           </ul>
         </div>
       </div>
