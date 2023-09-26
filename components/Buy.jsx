@@ -9,13 +9,13 @@ import Link from "next/link";
 
 const Buy = () => {
   return (
-    <section id="buy-section" className="py-20 bg-yellow-50">
+    <section id="buy-section" className="py-20 bg-black">
       <div className="mx-auto max-w-7xl rounded-md grid lg:grid-cols-2 gap-10 px-5">
-        <div className="md:pr-10">
-          <h3 className="text-md mb-2 text-gray-500 font-heading font-semibold uppercase">
+        <div className="md:pr-10 text-white">
+          <h3 className="text-md mb-2  font-heading font-semibold uppercase">
             Contact us
           </h3>
-          <h3 className="md:text-5xl text-3xl text-gray-800 font-heading font-semibold">
+          <h3 className="md:text-5xl text-3xl text-yellow-500 font-heading font-semibold">
             Get Your EmGuarde
           </h3>
           <p className="   mt-5">

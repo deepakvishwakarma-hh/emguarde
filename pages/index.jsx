@@ -5,6 +5,7 @@ import Header from "../components/Header";
 import Fixedbg from "../components/FixedBg";
 import Footer from "../components/Footer";
 import WhyBuilt from "../components/WhyBuild";
+import JoinOurEvent from "../components/JoinOurEvent";
 import Testimonials from "../components/Testimonials";
 import HealthBenefits from "../components/HealthBenefits";
 import ImpactsOfRadiation from "../components/ImapactsOfRadiation";
@@ -20,6 +21,7 @@ export default function Home() {
         <HealthBenefits />
         <Fixedbg />
         <Testimonials />
+        <JoinOurEvent />
         <Buy />
         <Footer />
       </main>
