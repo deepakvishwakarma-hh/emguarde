@@ -10,8 +10,6 @@ import Testimonials from "../components/Testimonials";
 import HealthBenefits from "../components/HealthBenefits";
 import ImpactsOfRadiation from "../components/ImapactsOfRadiation";
 
-import Video from "../components/Video";
-
 export default function Home() {
   return (
     <>
@@ -19,7 +17,6 @@ export default function Home() {
       <main>
         <Header />
         <Hero />
-        <Video />
         <ImpactsOfRadiation />
         <WhyBuilt />
         <HealthBenefits />
