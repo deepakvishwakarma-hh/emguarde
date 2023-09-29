@@ -1,13 +1,13 @@
 import Image from "next/image";
-const list = ["Car", "mobile", "television", "oven", "fan", "chair"];
+const list = ["car", "mobile", "television", "oven", "fan", "chair"];
 const Element = ({ name }) => (
   <div className="border-2--">
     <Image
-      className="rounded-sm  h-[250px] object-cover object-center"
-      src={`/${name}.jpg`}
       alt="/"
       width={500}
       height={500}
+      src={`/${name}.jpg`}
+      className="rounded-sm  h-[250px] object-cover object-center"
     />
   </div>
 );
