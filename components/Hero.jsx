@@ -1,9 +1,17 @@
-import Image from "next/image";
 import Link from "next/link";
+import Image from "next/image";
 const Hero = () => {
   return (
-    <div className=" bg-[url('/64414fafdc6a8_emGuardeoffersyoustateoftheartprotectionagainstEMwaves2472.png')] bg-no-repeat bg-cover bg-center">
-      <section className="px-2 bg-black/30 py-10">
+    <div className="relative md:h-[800px] h-screen flex items-center justify-center">
+      <video
+        loop
+        muted
+        autoPlay
+        src="/charging.mov"
+        className="absolute w-full h-full object-cover z-0 object-center"
+      />
+
+      <section className="px-2  py-10 relative ">
         <div className="mx-auto max-w-2xl grid gap-10 py-5">
           <Image
             className="mx-auto rounded-md"
