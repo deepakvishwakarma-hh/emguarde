@@ -2,12 +2,8 @@ const HealthBenefits = () => {
   return (
     <section
       id="health-benefits"
-      style={{
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundAttachment: "fixed",
-        backgroundImage: "url('/pexels-vecislavas-popa-1571459.jpg')",
-      }}
+      className=" bg-cover bg-center md:bg-fixed"
+      style={{ backgroundImage: "url('/pexels-vecislavas-popa-1571459.jpg')" }}
     >
       <div className="bg-black/20 py-20">
         <div className="mx-auto max-w-5xl mb-20 px-2 text-white drop-shadow-lg">
