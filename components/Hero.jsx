@@ -11,7 +11,7 @@ const Hero = () => {
         className="absolute w-full h-full object-cover z-0 object-center"
       />
 
-      <section className="px-2  py-10 relative ">
+      <section className="px-2 py-10 relative">
         <div className="mx-auto max-w-2xl grid gap-10 py-5">
           <Image
             className="mx-auto rounded-md"

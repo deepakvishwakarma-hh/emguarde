@@ -1,13 +1,14 @@
+import Image from "next/image";
 const Video = () => {
   return (
     <div className="mx-auto max-w-7xl py-10">
       <div className="grid md:grid-cols-2 p-5  gap-10">
         <div>
-          <video
-            autoPlay
-            loop
-            controls
-            src="/emvideo.MOV"
+          <Image
+            width={600}
+            height={200}
+            alt="portable"
+            src={"/portable.gif"}
             className="rounded-lg"
           />
         </div>

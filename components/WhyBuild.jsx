@@ -1,14 +1,24 @@
 import Image from "next/image";
-const list = ["car", "mobile", "television", "oven", "fan", "chair"];
-const Element = ({ name }) => (
+
+const list = [
+  { name: "car", src: "/car.jpg" },
+  { name: "mobile", src: "/mobile.jpg" },
+  { name: "television", src: "/television.jpg" },
+  { name: "oven", src: "/oven.jpg" },
+  { name: "fan", src: "/fan.jpg" },
+  { name: "massage chair", src: "/chair.jpg" },
+];
+
+const Element = ({ name, src }) => (
   <div className="border-2--">
     <Image
       alt="/"
       width={500}
       height={500}
-      src={`/${name}.jpg`}
+      src={src}
       className="rounded-sm  h-[250px] object-cover object-center"
     />
+    <p className="capitalize text-lg text-white py-2 font-heading">{name}</p>
   </div>
 );
 
@@ -29,7 +39,7 @@ const WhyBuilt = () => {
       <div className=" mx-auto max-w-7xl mt-5">
         <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 max-w-7xl mx-auto mt-10 gap-5 px-5">
           {list.map((e) => (
-            <Element name={e} key={e} />
+            <Element {...e} key={e.name} />
           ))}
         </div>
       </div>
