@@ -4,22 +4,27 @@ const list = [
   { name: "car", src: "/car.jpg" },
   { name: "mobile", src: "/mobile.jpg" },
   { name: "television", src: "/television.jpg" },
-  { name: "oven", src: "/oven.jpg" },
+  { name: "oven", src: "/oven.png" },
   { name: "fan", src: "/fan.jpg" },
   { name: "massage chair", src: "/chair.jpg" },
 ];
 
 const Element = ({ name, src }) => (
-  <div className="border-2--">
-    <Image
-      alt="/"
-      width={500}
-      height={500}
-      src={src}
-      className="rounded-sm  h-[250px] object-cover object-center"
-    />
-    <p className="capitalize text-lg text-white py-2 font-heading">{name}</p>
-  </div>
+  <>
+    <div className="">
+      <div className="relative aspect-h-2 aspect-w-4 ">
+        <Image
+          alt="/"
+          fill
+          src={src}
+          className="rounded-sm w-full object-cover object-center "
+        />
+      </div>
+      <p className="capitalize text-lg text-center text-white py-2 font-heading ">
+        {name}
+      </p>
+    </div>
+  </>
 );
 
 const WhyBuilt = () => {
@@ -37,7 +42,7 @@ const WhyBuilt = () => {
       </div>
 
       <div className=" mx-auto max-w-7xl mt-5">
-        <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 max-w-7xl mx-auto mt-10 gap-5 px-5">
+        <div className="grid grid-cols-2 max-w-5xl mx-auto mt-10 gap-5 px-5">
           {list.map((e) => (
             <Element {...e} key={e.name} />
           ))}
