@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="relative md:h-[800px] h-screen flex items-center justify-center">
+    <div className="relative md:h-[800px] h-[80vh] flex items-center justify-center">
       {/* desktop */}
       <video
         loop
