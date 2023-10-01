@@ -1,9 +1,7 @@
-import {
-  PiAtBold,
-  PiPhoneBold,
-  PiBuildingsBold,
-  PiWhatsappLogoBold,
-} from "react-icons/pi";
+import { PiAtBold, PiPhoneBold, PiWhatsappLogoBold } from "react-icons/pi";
+
+import { BiLogoFacebook } from "react-icons/bi";
+import { BsInstagram } from "react-icons/bs";
 
 import Link from "next/link";
 
@@ -33,12 +31,6 @@ const Buy = () => {
           />
 
           <Button
-            Href={"/"}
-            Icon={PiBuildingsBold}
-            Title={"Kangen Wiz Global"}
-          />
-
-          <Button
             Href={"mailto:info@kangenwizglobal.com"}
             Icon={PiAtBold}
             Title={"info@kangenwizglobal.com"}
@@ -48,6 +40,18 @@ const Buy = () => {
             Href={"tel:+6587517713"}
             Icon={PiPhoneBold}
             Title={"+65 8751 7713"}
+          />
+
+          <Button
+            Href={"https://www.facebook.com/kangenwizglobal/"}
+            Icon={BiLogoFacebook}
+            Title={"Facebook Page"}
+          />
+
+          <Button
+            Href={"https://www.instagram.com/kangenwizglobal/"}
+            Icon={BsInstagram}
+            Title={"Instagram Page"}
           />
         </div>
       </div>
