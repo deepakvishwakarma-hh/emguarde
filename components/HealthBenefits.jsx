@@ -17,7 +17,7 @@ const HealthBenefits = () => {
         </div>
 
         <div className=" mx-auto max-w-7xl mt-5">
-          <ul className="grid gap-1 bg-yellow-100-- p-1">
+          <ul className="grid gap-1 p-1">
             <li className="p-10 bg-yellow-50">
               <p className="font-semibold text-gray-500">01</p>
               <h3 className="font-heading font-semibold text-lg">
