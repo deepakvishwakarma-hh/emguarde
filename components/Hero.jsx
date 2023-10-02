@@ -7,6 +7,7 @@ const Hero = () => {
       {/* desktop */}
       <video
         loop
+        playsInline
         muted
         autoPlay
         src="/hero.mp4"
@@ -14,6 +15,7 @@ const Hero = () => {
       />
       {/* mobile  */}
       <video
+        playsInline
         loop
         muted
         autoPlay
