@@ -3,7 +3,10 @@ const HealthBenefits = () => {
     <section
       id="health-benefits"
       className=" bg-cover bg-center md:bg-fixed"
-      style={{ backgroundImage: "url('/pexels-vecislavas-popa-1571459.jpg')" }}
+      style={{
+        backgroundImage: "url('/pexels-vecislavas-popa-1571459.jpg')",
+        backgroundSize: "100% 100%",
+      }}
     >
       <div className="bg-black/20 py-20">
         <div className="mx-auto max-w-5xl mb-20 px-2 text-white drop-shadow-lg">
