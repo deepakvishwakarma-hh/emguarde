@@ -3,7 +3,7 @@ import Image from "next/image";
 const list = [
   { name: "car", src: "/car.jpg" },
   { name: "mobile", src: "/mobile.jpg" },
-  { name: "television", src: "/television.jpg" },
+  { name: "wireless controller", src: "/wirecontroller.jpg" },
   { name: "oven", src: "/oven.png" },
   { name: "fan", src: "/fan.jpg" },
   { name: "massage chair", src: "/chair.jpg" },
@@ -29,8 +29,8 @@ const Element = ({ name, src }) => (
 
 const WhyBuilt = () => {
   return (
-    <section className="py-20 bg-black ">
-      <div className="text-white mx-auto max-w-5xl mb-20 px-2">
+    <section className="py-10 bg-black ">
+      <div className="text-white mx-auto max-w-5xl mb-10 px-2">
         <h3 className="text-center md:text-3xl text-2xl text font-heading font-semibold">
           Biggest Radiation Sources Around Us
         </h3>
@@ -42,7 +42,7 @@ const WhyBuilt = () => {
       </div>
 
       <div className=" mx-auto max-w-7xl mt-5">
-        <div className="grid grid-cols-2 max-w-5xl mx-auto mt-10 gap-5 px-5">
+        <div className="grid grid-cols-2 lg:grid-cols-3 max-w-5xl mx-auto mt-10 gap-5 px-5">
           {list.map((e) => (
             <Element {...e} key={e.name} />
           ))}

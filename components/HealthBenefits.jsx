@@ -8,8 +8,8 @@ const HealthBenefits = () => {
         backgroundSize: "100% 100%",
       }}
     >
-      <div className="bg-black/20 py-20">
-        <div className="mx-auto max-w-5xl mb-20 px-2 text-white drop-shadow-lg">
+      <div className="bg-black/20 py-10">
+        <div className="mx-auto max-w-5xl mb-10 px-2 text-white drop-shadow-lg">
           <h3 className="text-center lg:text-3xl text-2xl font-heading font-semibold">
             Health benefits EmGuarde can give you.
           </h3>

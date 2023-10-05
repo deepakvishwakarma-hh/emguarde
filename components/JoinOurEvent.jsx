@@ -1,6 +1,6 @@
 const JoinOurEvent = () => {
   return (
-    <section className="py-20  bg-[#272829]">
+    <section id="events" className="py-20  bg-[#272829]">
       <div className="text-white mx-auto max-w-7xl  px-2 font-heading grid gap-1 ">
         <p className="uppercase tracking-wider">Event details</p>
         <h1 className="md:text-4xl text-2xl font-semibold py-5 text-yellow-500 border-l pl-5 bg-white/10 ">

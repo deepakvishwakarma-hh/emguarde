@@ -14,7 +14,7 @@ const ImpactsOfRadiation = () => {
         </p>
       </div>
 
-      <div className="grid lg:grid-cols-2 max-w-7xl mx-auto mt-10 gap-5">
+      <div className="grid lg:grid-cols-2 max-w-7xl mx-auto mt-5 gap-5">
         <div className="flex items-center justify-center bg-gray-100 rounded-md">
           <Image
             className="mx-auto rounded-md"
