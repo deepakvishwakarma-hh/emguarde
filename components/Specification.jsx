@@ -48,7 +48,7 @@ const Specification = () => {
             ))}
           </ul>
         </div>
-        <div className="flex items-center justify-center bg-gray-100 rounded-md">
+        <div className="flex items-center justify-center bg-gray-100 rounded-md px-5">
           <Image
             className="mx-auto rounded-md"
             src={"/emguarde-with-dimentions.png"}
